@@ -1,0 +1,18 @@
+div{background:lightgray; margin: 5px; padding:5px}
+a:hover{background: white; color:red; font-weight: bold;}
+
+ /* flex 컨테이너 설정 */
+ .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* 각각의 취미와 꿈을 포함하는 div 요소 */
+.item {
+    margin-right: 20px; /* 각 아이템 간격 조절 */
+}
+
+table{background:lightblue;}
+td:hover{background:blue; color:yellow;}
